@@ -1,0 +1,261 @@
+@charset "utf-8";
+/* CSS Document */
+h2{ 
+    color: #000;
+	font-size: 16px;
+	display: block;
+	width: 100%;
+	line-height: 40px;
+	font-weight: bolder;
+}
+/*--------------------------------首页三格-------------------------------------*/
+
+.ul360{
+	width: 360px;
+	float: left;
+}
+.ul264{
+	width: 264px;
+	float: left;
+	margin-left: 45px;
+}
+.ul456{
+	width: 456px;
+	float: right;
+}
+.ul_s{
+	padding: 60px 0px;
+	overflow: hidden;
+
+}
+.ul_s p{
+	display: block;
+	width: 100%;
+	line-height: 23px;
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+.ul_s li{
+	display: block;
+	float: left;
+	width: 90px;
+	background-image: url("../img/arr.jpg"/*tpa=/template/images/img/arr.jpg*/);
+	background-repeat: no-repeat;
+	background-position: left center;
+	line-height: 30px;
+	padding-left: 22px;
+}
+.ul360 li{width: 100%;}
+
+
+/*------------------------------------产品推荐------------------------------------*/
+.colorf1f1f1{
+	background-color:#f1f1f1;
+	padding: 50px 0px;
+	overflow: hidden;
+	margin-top: 30px;
+}
+.com{
+    display: block;
+	width: 100%;
+	line-height: 23px;
+	font-size: 13px;
+}
+.qiehuan{
+	margin-top: 20px;
+	width: 100%;
+	overflow: hidden;
+	display: block;
+}
+.qiehuan_top{
+	width: 100%;
+	display: block;
+	height: 30px;
+	overflow: hidden;
+	margin-bottom: 29px;
+}
+.qiehuan_top li{
+	float: left;
+	display: block;
+	width: 70px;
+	text-align: center;
+	height: 30px;
+	overflow: hidden;
+	margin-right: 10px;
+	line-height: 30px;
+}
+.qiehuan_top li a{
+	font-weight: bold;
+
+}
+.qiehuan_top li a:hover{
+	color: #b10000;
+}
+.qiehuan_top li.spmenuOn a{
+	color: #b10000;
+	border-bottom: 2px solid #b10000;
+}
+#spmenuCon_10{
+	width: 100%;
+	overflow: hidden;
+}
+#spmenuCon_11{
+	width: 100%;
+	overflow: hidden;
+	display: none;
+}
+#spmenuCon_12{
+	width: 100%;
+	overflow: hidden;
+	display: none;
+}
+
+.qiehuan dl{
+	display: block;
+	float: left;
+	border: 2px solid #36321e;
+	margin: 0px 16px 25px 0px;
+	width: 272px;
+	height: 203px;
+	overflow: hidden;
+}
+.qiehuan img{
+	width: 272px;
+	height: 203px;
+}
+
+
+/*------------------------------------简介及新闻切换部分----------------------------------------*/
+.about{
+	padding: 60px 0px;
+	overflow: hidden;
+}
+.a_lt{
+	width: 556px;
+	float: left;
+}
+.a_lt img{
+	width: 556px;
+	height: 317px;
+	margin-bottom: 12px;
+}
+.a_lt p{
+	width: 100%;
+	font-size: 13px;
+	line-height: 22px;
+	margin-top: 10px;
+}
+.a_rt{
+	width: 556px;
+	float: right;
+}
+.a_rt_top{
+	display: block;
+	overflow: hidden;
+	width: 100%;
+}
+.a_rt_top ul li{
+	display: block;
+	float: left;
+	width: 115px;
+	height: 39px;
+	text-align: center;
+	line-height: 39px;
+	font-weight: bold;
+}
+
+#spmenuCon1_10{
+	width: 100%;
+	overflow: hidden;
+}
+#spmenuCon1_11{
+	width: 100%;
+	overflow: hidden;
+	display: none;
+}
+#spmenuCon1_12{
+	width: 100%;
+	overflow: hidden;
+	display: none;
+}
+
+.spmenuOn1{
+	background-color: #b10000;
+	color: #fff;
+}
+.spmenuOn1 a{ color:#fff;}
+.spmenuOn1:hover a{color: #fff; cursor:pointer;}
+.topnew{
+	width: 494px;
+	border: 1px solid #f1f1f1;
+	padding: 30px;
+	overflow: hidden;
+}
+.topnew p{
+	float: left;
+	width: 256px;
+}
+.topnew p a{
+	display: block;
+	font-weight: bold;
+	line-height: 30px;
+}
+.topnew p span{
+	font-size: 12px;
+	line-height: 20px;
+}
+.topnew img{
+	float: right;
+	width: 200px;
+	height: 201px;
+}
+
+
+
+.sideMenu{
+	margin-top: 30px;
+}
+.sideMenu h3{
+	height:36px;
+	line-height:36px;
+	cursor:pointer;
+	font:normal 14px/32px "Microsoft YaHei";
+	background-repeat: no-repeat;
+	margin-top: 10px;
+	background-image: url("../img/case_li.png"/*tpa=/template/images/img/case_li.png*/);
+}
+.sideMenu h3 em{
+	float:left;
+	display:block;
+	width:36px;
+	height:36px;
+	cursor:pointer;
+	background-image: url("../img/right.png"/*tpa=/template/images/img/right.png*/);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.sideMenu h3 a{
+	margin-left: 15px;
+	font-weight: bold;
+}
+.sideMenu h3.on{
+	background-repeat: no-repeat;
+	color: #fff;
+	background-image: url("../img/case_li_hover.png"/*tpa=/template/images/img/case_li_hover.png*/);
+}
+.sideMenu h3.on a{ color:#fff;}
+.sideMenu h3.on em{
+	background-image: url("../img/up.png"/*tpa=/template/images/img/up.png*/);
+
+}
+.sideMenu ul{
+	padding:8px 53px;
+	color:#999;
+	display:none;
+	width: 450px;
+}
+.sideMenu ul li{
+	display: block;
+	color: #333;
+	font-size: 12px;
+}
